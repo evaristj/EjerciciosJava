@@ -16,9 +16,9 @@ public class basicos1 {
 		double division = valor1 / valor2;
 		double resta = valor1 - valor2;
 		double modulo = valor1 % valor2;
-		System.out
-				.println("Resultado suma: " + suma + "\nResultado multiplicacion: " + multiplicacion + "\nResultado resta: "
-						+ resta + "\nResultado division: " + division + "\nResultado del resto de la division: " + modulo);
+		
+		System.out.println("Resultado suma: " + suma + "\nResultado multiplicacion: " + multiplicacion 
+				   + "\nResultado resta: " + resta + "\nResultado division: " + division 
+				   + "\nResultado del resto de la division: " + modulo);
 	}
-
 }
