@@ -22,7 +22,7 @@ public class CalculadoraSencilla {
 		
 		// imprimimos por consola el resultado de cada operacion
 		System.out.println("Resultado suma: " + suma + "\nResultado multiplicacion: " 
-											+ multiplicacion + "\nResultado resta: " + resta + "\nResultado division: " 
-											+ division + "\nResultado del resto de la division: " + modulo);
+				+ multiplicacion + "\nResultado resta: " + resta + "\nResultado division: " 
+				+ division + "\nResultado del resto de la division: " + modulo);
 	}
 }
