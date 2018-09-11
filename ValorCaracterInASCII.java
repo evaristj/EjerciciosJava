@@ -2,7 +2,7 @@ package com.java.exercise.ejerciciosbasicos1;
 
 import javax.swing.JOptionPane;
 
-public class basicos8 {
+public class ValorCaracterInASCII {
 
 	public static void main(String[] args) {
 
@@ -13,6 +13,8 @@ public class basicos8 {
 
 		String numero = JOptionPane.showInputDialog("introduce un caracter: ");
 
+		// como solo queremos un caracter, le decimos que si la longitud introducida es
+		// mayor a 1, no salga del bucle
 		do {
 
 			numero = JOptionPane.showInputDialog("Caracter invalido, introduce otro: ");

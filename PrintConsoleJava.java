@@ -1,6 +1,6 @@
 package com.java.exercise.ejerciciosbasicos1;
 
-public class basicos3 {
+public class PrintConsoleJava {
 
 	public static void main(String[] args) {
 		/*
@@ -9,7 +9,10 @@ public class basicos3 {
 		 * aparezca "Bienvenido Fernando"?.
 		 */
 
-		String name = "Evarist";
+		// creamos un String con el nombre que queramos
+		String name = "Son Goku";
+		
+		// lo imprimimos por consola
 		System.out.println("Bienvenido " + name + ".");
 
 	}

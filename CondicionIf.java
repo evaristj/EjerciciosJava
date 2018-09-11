@@ -1,6 +1,6 @@
 package com.java.exercise.ejerciciosbasicos1;
 
-public class basicos2 {
+public class CondicionIf {
 
 	public static void main(String[] args) {
 
@@ -9,9 +9,12 @@ public class basicos2 {
 		 * es mayor de los dos. Si son iguales indicarlo tambien. Ves cambiando los
 		 * valores para comprobar que funciona.
 		 */
-		double valor1 = 40;
-		double valor2 = 50;
+		
+		// creamos las variables y les asignamos un valor
+		double valor1 = 40.36;
+		double valor2 = 50.25;
 
+		// creamos la condición que nos dira que valor es mayor o si son iguales
 		if (valor1 > valor2) {
 			System.out.println("El valor " + valor1 + " es mayor que el valor " + valor2 + ".");
 		} else if (valor1 < valor2) {
