@@ -25,5 +25,4 @@ public class CalculadoraSencilla {
 											+ multiplicacion + "\nResultado resta: " + resta + "\nResultado division: " 
 											+ division + "\nResultado del resto de la division: " + modulo);
 	}
-
 }
